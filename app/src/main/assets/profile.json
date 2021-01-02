@@ -1,0 +1,7 @@
+{
+ "completed": {"j_completed": "false"},
+ "personal_info": {"name": "Popescu", "surname": "Ion", "CNP": "2991013025062", "place_of_birth": "Bucuresti"},
+ "ID_data": {"emision_date": "21.12.2020", "expiration_date": "21.12.2027", "ID_series": "RR", "ID_number": "87650"},
+ "profesional_info": {"occupation": "student", "company": "ASE", "income": "1000000", "country": "Romania"},
+ "contact_info": {"email": "popescu@yahoo.com", "phone_number": "076 324 5628"}
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "823298565660",
+    "firebase_url": "https://homebankingauthentication.firebaseio.com",
+    "project_id": "homebankingauthentication",
+    "storage_bucket": "homebankingauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823298565660:android:540d25ac32a10650dca1d9",
+        "android_client_info": {
+          "package_name": "com.example.proiectandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823298565660-b2llso144vafks1g8bgjigsokch715gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB06EhkX4IOetll69bCDvcCDegBEPBDm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823298565660-b2llso144vafks1g8bgjigsokch715gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
