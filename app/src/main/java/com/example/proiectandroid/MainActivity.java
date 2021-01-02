@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //  Intent intent = new Intent(MainActivity.this, HomeActivity.class );
-                Intent intent = new Intent(MainActivity.this, ProfileActivity.class );
+                Intent intent = new Intent(MainActivity.this, SoldCurentActivity.class );
                 startActivityForResult(intent, ADD_REQUEST_CODE);
             }
         });

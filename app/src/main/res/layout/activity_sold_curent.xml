@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoldCurentActivity"
+    >
+
+    <ImageView
+        android:id="@+id/homeBanking"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/homebanking"
+        android:contentDescription="@string/HomeBanking" />
+    <ImageView
+        android:id="@+id/bani"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/bani"
+        android:contentDescription="@string/bani" />
+    <TextView
+        android:id="@+id/tv_sold"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Cont Curent Lei"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+    <ImageView
+        android:id="@+id/sac"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/sac"
+        android:contentDescription="@string/sac" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="320dp"
+        android:hint="Conturi Curente "
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="350dp"
+        android:hint="Cont Lei "
+        android:layout_marginEnd="10dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="370dp"
+        android:hint="Cont EURO "
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/contLei"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/ContCurentLei"
+        android:textSize="15sp"
+        android:text="20 000 lei"
+        />
+    <TextView
+        android:id="@+id/contEuro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/ContCurentLei"
+        android:textSize="15sp"
+        android:text="5 000 euro"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="210dp"
+        android:hint="Ai in conturi"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/economii"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/economii"
+        android:contentDescription="@string/economii" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="410dp"
+        android:hint="Cont Economii"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="410dp"
+        android:hint="5000 lei"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/etcontEuro"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/ContCurentLei"
+        android:textSize="20sp"
+        android:text="5 000 Euro"
+        />
+    <EditText
+        android:id="@+id/etcontLEI"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/ContCurentLei"
+        android:textSize="20sp"
+        android:text="20 000 lei"
+        />
+<!--    <TextView-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginTop="370dp"-->
+<!--        android:hint="servicii"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/sp_servicii"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:layout_marginLeft="80dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        />-->
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/push_alerts"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="490dp"
+        android:text="@string/banca_pay"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Switch
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="200dp"
+        />
+
+    <Switch
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="200dp"
+        />
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-56dp"
+        app:menu="@menu/bottom_navigation"
+        android:background="?android:attr/windowBackground"/>
+
+
+
+
+</RelativeLayout>

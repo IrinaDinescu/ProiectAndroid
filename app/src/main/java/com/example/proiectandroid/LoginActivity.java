@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity {
     private EditText userEt, passwordEt;
     private Button SignInButton;
-    private TextView SignUp;
+    private TextView SignUpTV;
     private ProgressDialog progressDialog;
     private FirebaseAuth firebaseAuth;
     @Override
@@ -33,14 +33,14 @@ public class LoginActivity extends AppCompatActivity {
         passwordEt=findViewById(R.id.password);
         SignInButton=findViewById(R.id.loginbtn);
         progressDialog=new ProgressDialog(this);
-        SignUp=findViewById(R.id.signUp);
+        SignUpTV=findViewById(R.id.signUp);
         SignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
             Login();
             }
         });
-        SignUp.setOnClickListener(new View.OnClickListener() {
+        SignUpTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(LoginActivity.this,RegisterActivity.class);
@@ -61,14 +61,12 @@ public class LoginActivity extends AppCompatActivity {
         else  if(TextUtils.isEmpty(password)){
             passwordEt.setError("Enter your password!");
             return;
-        } else if(password.length()<6){
-            passwordEt.setError("Password is not correct");
-            return;
         }
+
         progressDialog.setMessage("Please wait...");
         progressDialog.show();
         progressDialog.setCanceledOnTouchOutside(false);
-        firebaseAuth.createUserWithEmailAndPassword(user,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+        firebaseAuth.signInWithEmailAndPassword(user,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){

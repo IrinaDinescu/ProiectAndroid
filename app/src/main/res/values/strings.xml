@@ -43,4 +43,12 @@
     <string name="ivalid_series_number">invalid series number format</string>
     <string name="invalid_CNP">invalid CNP format</string>
     <string name="invalid_income">"only digits "</string>
+    <string name="sold_curent_euro">Sold Curent Euro</string>
+    <string name="economii">Economii</string>
+    <string name="_5_000_euro">5 000 EURO</string>
+    <string name="cont_curent_euro">cont curent Euro</string>
+    <string name="ContCurentLei" />
+    <string name="enterContCurent">20000 lei</string>
+    <string name="bani">bani</string>
+    <string name="sac">sac</string>
 </resources>
