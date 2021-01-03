@@ -53,4 +53,5 @@
     <string name="sac">sac</string>
     <string name="CodClient">Cod Client</string>
     <string name="enterCodClient">Introduceti Codul . . .</string>
+    <string name="enteryouremail">Enter your email . . .</string>
 </resources>

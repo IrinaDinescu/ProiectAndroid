@@ -18,7 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
-    private EditText userEt, passwordEt;
+    private EditText emailEt, passwordEt;
     private Button SignInButton;
     private TextView SignUpTV;
     private ProgressDialog progressDialog;
@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         firebaseAuth=FirebaseAuth.getInstance();
-        userEt=findViewById(R.id.userName);
+        emailEt=findViewById(R.id.emailLog);
         passwordEt=findViewById(R.id.password);
         SignInButton=findViewById(R.id.loginbtn);
         progressDialog=new ProgressDialog(this);
@@ -51,10 +51,10 @@ public class LoginActivity extends AppCompatActivity {
     }
     private void Login(){
 
-        String user=userEt.getText().toString();
+        String email=emailEt.getText().toString();
         String password=passwordEt.getText().toString();
-         if(TextUtils.isEmpty(user)){
-            userEt.setError("Enter your user name!");
+         if(TextUtils.isEmpty(email)){
+            emailEt.setError("Enter your email!");
             return;
         }
         else  if(TextUtils.isEmpty(password)){
@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
         progressDialog.setMessage("Please wait...");
         progressDialog.show();
         progressDialog.setCanceledOnTouchOutside(false);
-        firebaseAuth.signInWithEmailAndPassword(user,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+        firebaseAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){

@@ -21,7 +21,7 @@ private User user=null;
 
         database= Room.databaseBuilder(getApplicationContext(),AppDb.class,"User").allowMainThreadQueries().build();
        initializareComponente();
-         database.userDAO().insertUser(new User("alisss21","danalisa1999@gmail.com",20000,5000,5000));
+        database.userDAO().insertUser(new User("alisss21","danalisa1999@gmail.com",20000,5000,5000));
         user=database.userDAO().getuser("danalisa1999@gmail.com");
         Log.v("user1",user.toString());
         List<User> users=database.userDAO().getall();
