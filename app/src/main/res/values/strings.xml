@@ -51,4 +51,6 @@
     <string name="enterContCurent">20000 lei</string>
     <string name="bani">bani</string>
     <string name="sac">sac</string>
+    <string name="CodClient">Cod Client</string>
+    <string name="enterCodClient">Introduceti Codul . . .</string>
 </resources>
