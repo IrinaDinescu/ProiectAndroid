@@ -6,30 +6,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.example.proiectandroid.MainActivity;
 import com.example.proiectandroid.R;
+import com.example.proiectandroid.Transaction;
 import com.example.proiectandroid.TransactionInfoActivity;
-import com.example.proiectandroid.TransactionsActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
-
-import static androidx.core.app.ActivityCompat.startActivityForResult;
+import java.util.List;
 
 public class TransactionAdapter extends BaseAdapter {
 
     public static int ADD_REQUEST_CODE = 99;
 
-    private ArrayList<Transaction> transactions;
+    private List<Transaction> transactions;
     private Context context;
     private LayoutInflater inflater;
 
-    public TransactionAdapter(Context context, ArrayList<Transaction> transactions) {
+    public TransactionAdapter(Context context, List<Transaction> transactions) {
         this.transactions = transactions;
         this.context = context;
         this.inflater = LayoutInflater.from(context);

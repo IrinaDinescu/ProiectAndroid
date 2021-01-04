@@ -1,11 +1,18 @@
-package com.example.proiectandroid.classes;
+package com.example.proiectandroid;
+
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 import java.util.Date;
 
+@Entity(tableName="Transactions")
 public class Transaction {
-
+    @PrimaryKey(autoGenerate = true)
     private int code;
+    @ColumnInfo(name="type")
     private String type;
+
     private String trader;
     private String merchant_code;
     private String transaction_date;

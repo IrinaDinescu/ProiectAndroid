@@ -8,7 +8,7 @@ public class User {
     @PrimaryKey(autoGenerate = true)
     public int id;
     @ColumnInfo(name="nume_user")
-   public String nume;
+    public String nume;
     public String email;
     public int contCurentLei;
     public int contCurentEuro;
