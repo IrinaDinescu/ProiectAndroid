@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public static int ADD_REQUEST_CODE=100;
-    private Button btn1;
+    private Button btn1, btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, ADD_REQUEST_CODE);
             }
         });
+
+        btn2 = findViewById(R.id.bt_TransactionsActivity);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //  Intent intent = new Intent(MainActivity.this, HomeActivity.class );
+                Intent intent = new Intent(MainActivity.this, TransactionsActivity.class );
+                startActivityForResult(intent, ADD_REQUEST_CODE);
+            }
+        });
+
 
     }
 
