@@ -54,4 +54,14 @@
     <string name="CodClient">Cod Client</string>
     <string name="enterCodClient">Introduceti Codul . . .</string>
     <string name="enteryouremail">Enter your email . . .</string>
+    <string name="transaction_type">Tipul tranzactiei</string>
+    <string name="Comerciant">Comerciant</string>
+    <string name="Cod_Comerciant">Cod Comerciant</string>
+    <string name="Data">Data</string>
+    <string name="Suma">Suma</string>
+    <string name="Type">Type</string>
+    <string name="trader">Trader</string>
+    <string name="merchant_code">Marchant_Code</string>
+    <string name="transaction_date">dd/mm/yyyy</string>
+    <string name="sum">suma</string>
 </resources>
