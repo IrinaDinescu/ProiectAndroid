@@ -64,4 +64,8 @@
     <string name="merchant_code">Marchant_Code</string>
     <string name="transaction_date">dd/mm/yyyy</string>
     <string name="sum">suma</string>
+    <string name="Transferabani">Transfera bani</string>
+    <string name="title_activity_plati">PlatiActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
