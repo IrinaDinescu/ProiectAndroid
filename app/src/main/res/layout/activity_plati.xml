@@ -20,29 +20,28 @@
         android:id="@+id/catre"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="TextView"
+        android:text="Plata catre un prieten"
+        android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/lv_plati"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.22000003"
-        tools:text="@string/Platacatreunprieten"
-        android:textSize="30dp"/>
+        tools:text="@string/Platacatreunprieten" />
 
     <TextView
         android:id="@+id/prieteni"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Prieteni"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/lv_plati"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catre"
-        android:textSize="20dp"
-        tools:text="@string/prieteni"
-        />
+        tools:text="@string/prieteni" />
 
     <TextView
         android:id="@+id/tv_numarPrieteni"

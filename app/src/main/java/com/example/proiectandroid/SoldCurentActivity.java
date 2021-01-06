@@ -35,6 +35,16 @@ public static int ADD_REQUEST_CODE=100;
         et_contCurentEuro.setText(String.valueOf(user.contCurentEuro));
         tv_contEconomii.setText(String.valueOf(user.contEconomii));
 
+        btnPlati = findViewById(R.id.bt_plati);
+        btnPlati.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //  Intent intent = new Intent(MainActivity.this, HomeActivity.class );
+                Intent intent = new Intent(SoldCurentActivity.this, PlatiActivity.class );
+                startActivityForResult(intent, ADD_REQUEST_CODE);
+            }
+        });
+
     }
     private void initializareComponente(){
         et_contCurentLei=findViewById(R.id.tvcontLEI);
