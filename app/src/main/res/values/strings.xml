@@ -71,4 +71,7 @@
     <string name="whotopay">Plata catre un prieten</string>
     <string name="Platacatreunprieten">Plata catre un prieten</string>
     <string name="prieteni">Prieteni</string>
+    <string name="sumaplata">Introduceti suma . . .</string>
+    <string name="detaliiPlata">Introduceti detaliile platii . . .</string>
+    <string name="plateste">Plateste</string>
 </resources>

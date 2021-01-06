@@ -1,9 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlataPrietenActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="10sp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="250dp"
+        android:background="@drawable/user"
+
+        android:contentDescription="@string/user"/>
+    <EditText
+        android:id="@+id/sumaPlata"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/sumaplata"
+        android:paddingVertical="15dp"
+        android:layout_marginTop="150dp"
+        android:paddingStart="60dp"
+        android:paddingEnd="0dp"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:background="@drawable/rectangular_field"
+        />
+
+    <EditText
+        android:id="@+id/detaliiPlata"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/detaliiPlata"
+        android:paddingVertical="15dp"
+        android:layout_marginTop="250dp"
+        android:paddingStart="60dp"
+        android:paddingEnd="0dp"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:background="@drawable/rectangular_field"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        />
+    <TextView
+        android:layout_marginTop="355dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Sunteti sigur ca doriti sa realizati aceasta tranzactie?"
+        android:layout_marginStart="55sp"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/plateste"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/plateste"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/culoare"
+        android:layout_marginStart="50dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>
