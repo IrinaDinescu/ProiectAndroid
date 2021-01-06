@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
+        <activity android:name=".PlataPrietenActivity"></activity>
+        <activity android:name=".PlatiActivity" />
         <activity android:name=".StatisticsActivity" />
         <activity android:name=".TransactionsActivity" />
         <activity android:name=".TransactionInfoActivity" />
