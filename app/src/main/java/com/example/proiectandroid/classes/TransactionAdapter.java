@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.example.proiectandroid.PlataPrieten;
 import com.example.proiectandroid.R;
 import com.example.proiectandroid.Transaction;
 import com.example.proiectandroid.TransactionInfoActivity;
@@ -26,15 +27,17 @@ public class TransactionAdapter extends BaseAdapter {
     private Context context;
     private LayoutInflater inflater;
 
+
     public TransactionAdapter(Context context, List<Transaction> transactions) {
         this.transactions = transactions;
         this.context = context;
         this.inflater = LayoutInflater.from(context);
     }
 
+
     @Override
     public int getCount() {
-        return transactions.size();
+        return transactions.size() ;
     }
 
     @Override
@@ -53,6 +56,7 @@ public class TransactionAdapter extends BaseAdapter {
         TextView tvTrader = item.findViewById(R.id.tv_transaction_trader);
         TextView tvSum = item.findViewById(R.id.tv_transaction_sum);
         TextView tvDate = item.findViewById(R.id.tv_transaction_date);
+
 
         final Transaction transaction = transactions.get(position);
         tvTrader.setText(transaction.getTrader());

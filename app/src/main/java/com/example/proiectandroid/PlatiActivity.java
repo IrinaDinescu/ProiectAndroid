@@ -25,6 +25,7 @@ public class PlatiActivity extends AppCompatActivity {
         setupAdapter();
         nr_prieteni=findViewById(R.id.tv_numarPrieteni);
         nr_prieteni.setText(String.valueOf(size));
+
     }
 
     private void setupAdapter(){
@@ -60,5 +61,6 @@ public class PlatiActivity extends AppCompatActivity {
 
     }
     int size=Lista().size();
+
 
 }

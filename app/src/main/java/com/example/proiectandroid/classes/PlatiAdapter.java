@@ -62,7 +62,7 @@ public class PlatiAdapter extends BaseAdapter {
             public void onClick(android.view.View v) {
                 Toast.makeText(context, "Transfera catre prieten", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context, PlataPrietenActivity.class );
-                intent.putExtra("cod", plata.getCodPrieten());
+                intent.putExtra("nume", plata.getNume());
                 context.startActivity(intent);
 
             }
@@ -71,4 +71,5 @@ public class PlatiAdapter extends BaseAdapter {
 
         return item;
     }
+
 }

@@ -74,4 +74,6 @@
     <string name="sumaplata">Introduceti suma . . .</string>
     <string name="detaliiPlata">Introduceti detaliile platii . . .</string>
     <string name="plateste">Plateste</string>
+    <string name="sumaGresita">Trebuie sa introduceti o suma!</string>
+    <string name="detaliiGresite">Trebuie sa introduceti detaliile platii!</string>
 </resources>

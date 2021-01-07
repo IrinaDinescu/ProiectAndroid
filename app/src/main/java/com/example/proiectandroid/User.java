@@ -10,11 +10,11 @@ public class User {
     @ColumnInfo(name="nume_user")
     public String nume;
     public String email;
-    public int contCurentLei;
-    public int contCurentEuro;
-    public int contEconomii;
+    public double contCurentLei;
+    public double contCurentEuro;
+    public double contEconomii;
 
-    public User( String nume,String email, int contCurentLei, int contCurentEuro, int contEconomii) {
+    public User( String nume,String email, double contCurentLei, double contCurentEuro, double contEconomii) {
         this.nume=nume;
         this.email=email;
         this.contCurentLei = contCurentLei;

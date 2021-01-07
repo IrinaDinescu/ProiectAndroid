@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //  Intent intent = new Intent(MainActivity.this, HomeActivity.class );
-                Intent intent = new Intent(MainActivity.this, PlatiActivity.class );
+                Intent intent = new Intent(MainActivity.this, SoldCurentActivity.class );
                 startActivityForResult(intent, ADD_REQUEST_CODE);
             }
         });
@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn4 = findViewById(R.id.bt_sold);
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SoldCurentActivity.class );
-                startActivityForResult(intent, ADD_REQUEST_CODE);
-            }
-        });
+//        btn4 = findViewById(R.id.bt_sold);
+//        btn4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, SoldCurentActivity.class );
+//                startActivityForResult(intent, ADD_REQUEST_CODE);
+//            }
+//        });
 
     }
 
