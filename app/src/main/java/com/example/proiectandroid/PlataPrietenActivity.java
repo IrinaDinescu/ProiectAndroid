@@ -27,7 +27,7 @@ public class PlataPrietenActivity extends AppCompatActivity {
     private AppDb database;
  //   public double contCurentLei;
 
-
+//ushf
 
 
     @Override
